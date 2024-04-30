@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-
+import styles from '@components/layout.module.css';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-      <img src="/RTI-MERLA_fullCOLOR-5218-flat.png" alt="RTI"  />
+      <img className={styles.spin} src="/RTI-MERLA_fullCOLOR-5218-flat.png" alt="RTI"  />
         
       </main>
 
